@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thư viện lớp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>📚 Thư viện lớp</h1>
+    <div class="header-right">
+      <span>❤ Yêu thích: <strong id="fav-count">0</strong></span>
+      <button id="theme-toggle" type="button">🌙 Tối</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="Công cụ">
+      <input id="search" type="search" placeholder="Tìm theo tên sách…">
+      <select id="genre-filter" aria-label="Lọc thể loại"></select>
+    </section>
+
+    <p id="status" role="status">Đang tải…</p>
+    <section id="book-list" aria-label="Danh sách sách"></section>
+
+    <section class="form-section">
+      <h2>Thêm sách mới</h2>
+      <form id="book-form" novalidate>
+        <div class="field">
+          <label for="title">Tên sách</label>
+          <input id="title" name="title">
+          <small class="error" data-for="title"></small>
+        </div>
+        <div class="field">
+          <label for="author">Tác giả</label>
+          <input id="author" name="author">
+          <small class="error" data-for="author"></small>
+        </div>
+        <div class="field">
+          <label for="genre">Thể loại</label>
+          <select id="genre" name="genre"></select>
+          <small class="error" data-for="genre"></small>
+        </div>
+        <div class="field">
+          <label for="year">Năm xuất bản</label>
+          <input id="year" name="year" type="number">
+          <small class="error" data-for="year"></small>
+        </div>
+        <button type="submit">Thêm sách</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">© Thư viện lớp – Bài thực hành 02</footer>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

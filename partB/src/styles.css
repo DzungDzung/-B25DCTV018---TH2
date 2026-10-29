@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,sans-serif;background:#f5f6fa;color:#1f2430;display:flex;flex-direction:column;min-height:100vh}
+#root{display:flex;flex-direction:column;min-height:100vh}
+main{flex:1;width:100%;max-width:1100px;margin:0 auto;padding:16px}
+.header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 24px;background:#2f6fed;color:#fff}
+.header h1{margin:0;font-size:1.4rem}
+.genre-filter{display:flex;flex-wrap:wrap;gap:8px}
+button{font:inherit;padding:8px 12px;border:1px solid #dde1ea;border-radius:6px;background:#fff;cursor:pointer}
+.genre-filter button.active{background:#2f6fed;color:#fff;border-color:#2f6fed}
+.book-list{display:flex;flex-wrap:wrap;gap:16px}
+.card{flex:0 0 calc((100% - 32px) / 3);background:#fff;border:1px solid #dde1ea;border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:6px}
+.card h3,.card p{margin:0}
+.card p{color:#666}
+.card button{margin-top:auto}
+.fav.active{background:#ffe1e1;color:#b11;border-color:#e99}
+.footer{text-align:center;padding:12px;color:#666}
+@media (max-width:768px){.card{flex-basis:100%}}

@@ -1,0 +1,89 @@
+// Dữ liệu sách (chưa gọi API)
+const books = [
+  {
+    "id": "1",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": "Công nghệ",
+    "year": 2008
+  },
+  {
+    "id": "2",
+    "title": "Lập trình JavaScript",
+    "author": "Nguyễn Văn An",
+    "genre": "Công nghệ",
+    "year": 2020
+  },
+  {
+    "id": "3",
+    "title": "Học React",
+    "author": "Trần Minh Khoa",
+    "genre": "Công nghệ",
+    "year": 2022
+  },
+  {
+    "id": "4",
+    "title": "Cấu trúc dữ liệu",
+    "author": "Lê Hoàng Nam",
+    "genre": "Công nghệ",
+    "year": 2018
+  },
+  {
+    "id": "5",
+    "title": "Dế Mèn phiêu lưu ký",
+    "author": "Tô Hoài",
+    "genre": "Văn học",
+    "year": 1941
+  },
+  {
+    "id": "6",
+    "title": "Truyện Kiều",
+    "author": "Nguyễn Du",
+    "genre": "Văn học",
+    "year": 1920
+  },
+  {
+    "id": "7",
+    "title": "Tôi thấy hoa vàng trên cỏ xanh",
+    "author": "Nguyễn Nhật Ánh",
+    "genre": "Văn học",
+    "year": 2010
+  },
+  {
+    "id": "8",
+    "title": "Nhà giả kim",
+    "author": "Paulo Coelho",
+    "genre": "Văn học",
+    "year": 2002
+  },
+  {
+    "id": "9",
+    "title": "Đắc nhân tâm",
+    "author": "Dale Carnegie",
+    "genre": "Kỹ năng",
+    "year": 1936
+  },
+  {
+    "id": "10",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Kỹ năng",
+    "year": 2018
+  },
+  {
+    "id": "11",
+    "title": "Tư duy nhanh và chậm",
+    "author": "Daniel Kahneman",
+    "genre": "Kỹ năng",
+    "year": 2011
+  },
+  {
+    "id": "12",
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "genre": "Kỹ năng",
+    "year": 2016
+  }
+];
+
+export default books;
